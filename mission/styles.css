@@ -1,0 +1,39 @@
+body {
+    font-size: 20px;
+}
+
+#content {
+    max-width: 40%;
+    margin: 100px auto;
+}
+
+#title {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+
+#title p {
+    color: #006EB6;
+}
+
+#mission {
+    margin: 50px auto;
+    line-height: 1.6em;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.italic {
+    font-style: italic;
+}
+
+li {
+    margin: 30px auto;
+}
+
+img {
+    width: 20%;
+    min-width: 200px;
+    display: block;
+    margin: 100px auto;
+}
