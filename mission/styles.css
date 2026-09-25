@@ -44,3 +44,7 @@ img {
     color: white;
     background-color: #202020;
 }
+
+.darkMode #title p {
+    color: #78c0ef;
+}
