@@ -93,4 +93,7 @@ nav a:hover {
     nav a {
         display: inline-block;
     }
+    main {
+        padding-bottom: 2em;
+    }
 }
