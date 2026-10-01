@@ -42,6 +42,7 @@ header h1 {
 main {
     flex: 1;
     background-color: rgb(185, 185, 185);
+    padding-bottom: 2em;
 }
 
 main h2 {
@@ -92,8 +93,5 @@ nav a:hover {
     }
     nav a {
         display: inline-block;
-    }
-    main {
-        padding-bottom: 2em;
     }
 }
