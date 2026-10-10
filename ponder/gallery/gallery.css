@@ -29,6 +29,7 @@ dialog {
     height: 100%;
     background-color: rgba(0,0,0,.75);
 }
+
 .close-viewer {
     position: absolute;
     top: 10vh;
