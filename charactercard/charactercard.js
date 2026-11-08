@@ -4,17 +4,17 @@ let character = {
     level: 5,
     health: 100,
     image: "snortleblat.webp",
-    attacked: function() {
-        if (this.health > 0){
-        this.health -= 20;
-        if (this.health <= 0){
-            this.health = 0;
-            alert("Character Died");
-        }
-        updateCardInfo();
+    attacked: function () {
+        if (this.health > 0) {
+            this.health -= 20;
+            if (this.health <= 0) {
+                this.health = 0;
+                alert("Character Died");
+            }
+            updateCardInfo();
         }
     },
-    levelUp: function() {
+    levelUp: function () {
         this.level += 1;
         updateCardInfo();
     }
@@ -22,7 +22,7 @@ let character = {
 
 updateCardInfo();
 
-function updateCardInfo(){
+function updateCardInfo() {
     document.querySelector(".cardInfo").innerHTML = `
     <p><b>Class:</b> ${character.name}</p>
     <p><b>Level:</b> ${character.level}</p>
