@@ -9,6 +9,7 @@ let character = {
         this.health -= 20;
         if (this.health <= 0){
             this.health = 0;
+            alert("Character Died");
         }
         updateCardInfo();
         }
