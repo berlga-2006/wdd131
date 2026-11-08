@@ -4,6 +4,7 @@ let character = {
     level: 5,
     health: 100,
     image: "snortleblat.webp",
+    imageAlt: "A picture of a humanoid lizard in a swamp.",
     attacked: function () {
         if (this.health > 0) {
             this.health -= 20;
@@ -23,6 +24,7 @@ let character = {
 updateCardInfo();
 
 function updateCardInfo() {
+    document.querySelector(".cardImage").outerHTML = `<img class="cardImage" src="${character.image}" alt="${character.imageAlt}">`
     document.querySelector(".cardInfo").innerHTML = `
     <p><b>Class:</b> ${character.name}</p>
     <p><b>Level:</b> ${character.level}</p>
