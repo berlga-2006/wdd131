@@ -1,0 +1,128 @@
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header img {
+    width: 30%;
+    max-width: 165px;
+}
+
+
+header h1 {
+    font-size: 5em;
+    align-self: center;
+    margin: 0;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    margin-top: 40px;
+    display: flex; 
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.searchBar input {
+    border: none;
+    width: 100%;
+    margin: 7px;
+}
+
+.searchBar img {
+    width: 6%;
+    padding: 5px;
+    border-left: 1px solid gray;
+}
+
+.recipe {
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.recipe img {
+    width: 100%;
+    align-self: center;
+}
+
+.recipeInfo h2 {
+    color: #1091de;
+    font-size: 3em;
+    margin: 0;
+    margin-top: 20px;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.social a {
+    width: 65px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (min-width: 700px){
+    .recipe {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .recipe img {
+        width: 50%;
+    }
+
+    body {
+        margin: 0 10%;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .social {
+        justify-content: end;
+    }
+
+    footer a {
+        width: 100%;
+    }
+
+    .recipeDescription {
+        display: block;
+        font-family: 'Arial';
+    }
+}
