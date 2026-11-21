@@ -95,6 +95,12 @@ footer {
     gap: 20px;
 }
 
+#searchButton {
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+}
+
 @media screen and (min-width: 700px){
     .recipe {
         flex-direction: row;
@@ -106,7 +112,8 @@ footer {
     }
 
     body {
-        margin: 0 10%;
+        margin: 0 auto;
+        max-width: 1000px;
     }
 
     footer {
